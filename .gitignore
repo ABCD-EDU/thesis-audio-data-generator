@@ -1,1 +1,4 @@
+**/*.wav
+**/*.flac
+data/LibriMix2
 data

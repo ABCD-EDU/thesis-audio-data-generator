@@ -230,6 +230,8 @@ def create_empty_mixture_md(n_src, subdir):
 def read_sources(row, n_src, librispeech_dir, wham_dir):
     """ Get sources and info to mix the sources """
     # Get info about the mixture
+    # print(row['mixture_ID'])
+    # print(type(row))
     mixture_id = row['mixture_ID']
     sources_path_list = get_list_from_csv(row, 'source_path', n_src)
     gain_list = get_list_from_csv(row, 'source_gain', n_src)
