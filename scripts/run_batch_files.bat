@@ -1,7 +1,7 @@
 @echo off
 
-call download_n_extract_data.bat 
-
+@REM call download_n_extract_data.bat 
+@REM echo "Generating Libri"
 call generate_librispeech_metadata.bat
 
 call generate_wham_metadata.bat
